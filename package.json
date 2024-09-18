@@ -1,0 +1,25 @@
+{
+  "name": "zustand-entity-adapter",
+  "version": "0.0.1",
+  "description": "An Entity Adapter implementation for Zustand",
+  "private": true,
+  "keywords": [
+    "zustand"
+  ],
+  "author": "Michael De Abreu",
+  "license": "MIT",
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "husky": "^9.1.6",
+    "lint-staged": "^15.2.10"
+  },
+  "scripts": {
+    "prepare": "husky",
+    "lint": "npm run lint:ci --workspaces"
+  },
+  "lint-staged": {
+    "*.{js,jsx,ts,tsx,md,html,css}": "npm run lint"
+  }
+}
