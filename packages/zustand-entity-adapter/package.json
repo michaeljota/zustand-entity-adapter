@@ -1,7 +1,12 @@
 {
   "name": "zustand-entity-adapter",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/michaeljota/zustand-entity-adapter"
+  },
+  "homepage": "https://github.com/michaeljota/zustand-entity-adapter",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
